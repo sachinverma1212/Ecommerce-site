@@ -1,11 +1,10 @@
-'use client';
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap"});
 
 export const metadata: Metadata = {
   title: "Fashion Store - Your One-Stop Shop for Clothing",
